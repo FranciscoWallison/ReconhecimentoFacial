@@ -1,7 +1,7 @@
 import cv2 
 
 #treinamento de detecção de face
-classificador = cv2.CascadeClassifier("haarcascade-frontalface-default.xml")
+classificador = cv2.CascadeClassifier("haarcascades/haarcascade-frontalface-default.xml")
 
 camera = cv2.VideoCapture(0)
 
