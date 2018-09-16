@@ -19,14 +19,17 @@ def getImagemComId():
 		#Divide uma string em strings (split) type Array
 		id = int(os.path.split(caminhoImagem) [-1].split('.')[1])
 
+		#Verificar o id com a sua respectiva imagem
 		ids.append(id) 
 		faces.append(imagemFace) 
 
 	return np.array(ids), faces
 
 ids, faces = getImagemComId()
-
+#Carregando a matriz das imagens
 print(faces);
+#Carregando a id's
+print(ids);
 
 
 getImagemComId()
