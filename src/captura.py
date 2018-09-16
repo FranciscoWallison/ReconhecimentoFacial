@@ -12,7 +12,7 @@ while (True):
 	imagemCinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY) 
 	#sacala da imagem e  tamanho para detecção de face
 	facesDetectadas = classificador.detectMultiScale(imagemCinza, scaleFactor=1.5, minSize=(100,100))
-
+	#Marcando o rosto da imagem
 	for (x, y, l, a) in facesDetectadas:
 		cv2.rectangle(imagem, (x, y), (x + l, y + a), (0, 0, 255), 2)
 
