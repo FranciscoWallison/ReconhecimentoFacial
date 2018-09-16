@@ -16,6 +16,7 @@ def getImagemComId():
 
 	for caminhoImagem in caminhos:
 		imagemFace = cv2.cvtColor(cv2.imread(caminhoImagem), cv2.COLOR_BGR2GRAY ) 
+		
 		#Divide uma string em strings (split) type Array
 		id = int(os.path.split(caminhoImagem) [-1].split('.')[1])
 

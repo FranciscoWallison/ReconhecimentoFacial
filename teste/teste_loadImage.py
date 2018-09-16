@@ -10,6 +10,8 @@ lbph		= cv2.face.LBPHFaceRecognizer_create()
 
 def getImagemComId():
 	caminhos = [os.path.join('fotos', f) for f in os.listdir('fotos')]
+	
+	#Vostra o caminho das imagens
 	#print(caminhos)
 
 	for caminhoImagem in caminhos:

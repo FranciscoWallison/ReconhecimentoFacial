@@ -39,3 +39,18 @@ Esta função deve ser seguida pela função waitKey, que exibe a imagem por mil
 ```
 Haar Cascade de detecção de objetos e irá mostrar como treinar o seu algoritmo para que detecte um objeto desejado e após treinar como fazer um script para detectá-lo através de uma webcam.
 ```
+
+## Eigenvector - "Vetor próprio"
+```
+Mltiplicação em matriz
+```
+
+## PCA (Princial Component Analysis)
+```
+Seleção das características das faces
+```
+
+## Eigenface - "Treinamento"
+```
+As faces são decompostas numa séries de componentes principais
+```

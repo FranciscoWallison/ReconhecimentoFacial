@@ -26,7 +26,15 @@ def getImagemComId():
 
 ids, faces = getImagemComId()
 
-print(faces);
+print("Treinado...");
 
+eigenface.train(faces, ids)
+eigenface.write('classificadores/classificadorEigen.yml')
 
-getImagemComId()
+fisherface.train(faces, ids)
+fisherface.write('classificadores/classificadorFisher.yml')
+
+lbph.train(faces, ids)
+lbph.write('classificadores/classificadorLBPH.yml')
+
+print("Treinamento realizado")
