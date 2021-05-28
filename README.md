@@ -1,17 +1,5 @@
 # ReconhecimentoFacial
 
-## Detecção X Reconlhecimento
-```
-Detecção - 
-Colocar quadrado na face 
-
-```
-
-```
-Reconlhecimento - 
-Informar o responsavel da face
-```
-
 ## Install
 # pip install numpy
 ```
@@ -53,4 +41,16 @@ Seleção das características das faces
 ## Eigenface - "Treinamento"
 ```
 As faces são decompostas numa séries de componentes principais
+```
+
+## Detecção X Reconlhecimento
+```
+Detecção
+Colocar quadrado na face 
+
+```
+
+```
+Reconlhecimento - 
+Informar o responsavel da face
 ```
