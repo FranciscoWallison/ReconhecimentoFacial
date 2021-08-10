@@ -51,6 +51,6 @@ Colocar quadrado na face
 ```
 
 ```
-Reconlhecimento - 
+Reconlhecimento
 Informar o responsavel da face
 ```
