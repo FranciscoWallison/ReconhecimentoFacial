@@ -15,7 +15,6 @@ opencv_python-3.4.3+contrib-cp36-cp36m-win32.whl
 pip install "opencv_python-3.4.3+contrib-cp36-cp36m-win32.whl"
 ```
 
-
 ## Function CV2
 # waitkey
 ```
