@@ -46,7 +46,6 @@ As faces são decompostas numa séries de componentes principais
 ```
 Detecção
 Colocar quadrado na face 
-
 ```
 
 ```
