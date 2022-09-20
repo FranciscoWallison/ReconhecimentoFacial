@@ -1,4 +1,4 @@
-# ReconhecimentoFacial
+# Reconhecimento Facial
 
 ## Libs Install
 # pip install numpy
